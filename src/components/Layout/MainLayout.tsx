@@ -7,10 +7,10 @@ const MainLayout = () => {
   return (
     <div className="">
         <Navbar></Navbar>
-       <div className="max-w-6xl border border-red-700 mx-auto">
+       <div className="max-w-6xl  mx-auto">
        <Outlet></Outlet>
        </div>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
     </div>
   )
 }

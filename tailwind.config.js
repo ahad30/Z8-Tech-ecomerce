@@ -5,6 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      Nunito : ["Nunito Sans", "sans-serif"]
+    },
+    colors: {
+      primary : "#600451"
+    },
     extend: {
       backgroundImage: {
         'banner-img': "url('./src/assets/Bannar/bannar.png')",

@@ -12,27 +12,45 @@ const Banner = () => {
       {/* banner image */}
       <div className="col-span-6">
         <Swiper
-          style={{
-            
-          }}
+          style={{}}
           pagination={true}
           className=""
           modules={[Pagination]}
         >
           <SwiperSlide className="">
-            <div className=" border h-full border-red-500   bg-banner-img bg-cover ">
-              <p>hello</p>
+            <div className=" flex pl-6 items-center  h-full    bg-banner-img bg-cover ">
+              <div className="space-y-4 w-1/2">
+                <p className="text-[24px] text-primary font-normal">Accessories</p>
+                <h2 className="font-semibold leading-[64px] text-5xl">
+                  Up To <span className="text-[#B70223]">20% Off</span> Latest Creations
+                </h2>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="">
-            <div className=" border h-full border-red-500   bg-banner-img bg-cover ">
-              <p>hello</p>
+            <div className=" flex pl-6 items-center  h-full    bg-banner-img bg-cover ">
+              <div className="space-y-4 w-1/2">
+                <p className="text-[24px] text-primary font-normal">Accessories</p>
+                <h2 className="font-semibold leading-[64px] text-5xl">
+                  Up To <span className="text-[#B70223]">20% Off</span> Latest Creations
+                </h2>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="">
+            <div className=" flex pl-6 items-center  h-full    bg-banner-img bg-cover ">
+              <div className="space-y-4 w-1/2">
+                <p className="text-[24px] text-primary font-normal">Accessories</p>
+                <h2 className="font-semibold leading-[64px] text-5xl">
+                  Up To <span className="text-[#B70223]">20% Off</span> Latest Creations
+                </h2>
+              </div>
             </div>
           </SwiperSlide>
         </Swiper>
       </div>
       {/* <div className="col-span-6 border border-red-500   bg-banner-img bg-red-400"></div> */}
-      <div className="col-span-1 border space-y-3 border-red-500">
+      <div className="col-span-1 space-y-3 ">
         <img src={img1} className="rounded-[4px]" alt="" />
         <img src={img2} className="rounded-[4px]" alt="" />
       </div>
