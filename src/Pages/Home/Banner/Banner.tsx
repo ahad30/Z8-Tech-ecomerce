@@ -31,6 +31,7 @@ const Banner = () => {
             <div className=" flex pl-6 items-center  h-full    bg-banner-img bg-cover ">
               <div className="space-y-4 w-1/2">
                 <p className="text-[24px] text-primary font-normal">Accessories</p>
+                
                 <h2 className="font-semibold leading-[64px] text-5xl">
                   Up To <span className="text-[#B70223]">20% Off</span> Latest Creations
                 </h2>
