@@ -11,7 +11,7 @@ import { FaTwitter , FaLinkedin , FaBehance , FaYoutube} from "react-icons/fa";
 const Navbar = () => {
   return (
     <div className="bg-primary py-4 ">
-      <div className="flex justify-between items-center max-w-[80%] mx-auto">
+      <div className="flex justify-between items-center max-w-6xl mx-auto">
         {/* text part */}
         <div className=" flex gap-x-5 items-center">
           <p className="text-white font-semibold text-[18px] ">
