@@ -10,7 +10,7 @@ const Footer = () => {
     <div>
       <div className="bg-[#600451] h-[351px] flex mt-10 ">
         <div className="px-14">
-          <p className="text-2xl font-semibold text-white pt-8">Z8 eComerce</p>
+          <p className="text-2xl font-semibold text-white pt-12">Z8 eComerce</p>
           <p className="w-[320px] pt-4 text-white text-[16px]">
             Elegant pink origami design three dimensional view and decoration
             co-exist. Great for adding a decorative touch to any room’s decor.
@@ -19,10 +19,10 @@ const Footer = () => {
           <p className="border w-[270px] h-[40px] p-2 text-white mt-3">Email</p>
         </div>
         <div className="pl-24 text-white text-sm">
-          <p className="pt-8 underline text-[16px] font-semibold">
+          <p className="pt-14 underline text-[16px] font-semibold">
             Information
           </p>
-          <ul>
+          <ul className="text-[12px]">
             <li className="mb-3 mt-4">Custom service</li>
             <li className="mb-3 mt-4">FAQs</li>
             <li className="mb-3 mt-4">Ordering Tracking</li>
@@ -30,9 +30,9 @@ const Footer = () => {
             <li className="mb-3 mt-4">Events</li>
           </ul>
         </div>
-        <div className="pl-10 text-white text-sm">
-          <p className="pt-8 underline text-[16px]">My Account</p>
-          <ul>
+        <div className="pl-12 text-white text-sm">
+          <p className="pt-14 underline text-[16px]">My Account</p>
+          <ul className="text-[12px]">
             <li className=" mb-3 mt-4">Delivery Information</li>
             <li className="mb-3 mt-4">Privacy Policy</li>
             <li className="mb-3 mt-4">Discount</li>
@@ -41,36 +41,36 @@ const Footer = () => {
           </ul>
         </div>
         <div className="pl-8 text-white text-sm">
-          <p className="pt-8 underline text-[16px]">Social Network</p>
-          <ul>
+          <p className="pt-14 underline text-[16px]">Social Network</p>
+          <ul className="text-[12px]">
             <li className="mb-3 mt-4 flex justify-center items-center gap-2">
-              <IoLogoFacebook />
+              <IoLogoFacebook className="w-[18px] h-[18px]" />
               Facebook
             </li>
             <li className="mb-3 mt-4 flex justify-center items-center gap-2 mr-2">
-              <FaDribbble />
+              <FaDribbble className="w-[18px] h-[18px]" />
               Dribble
             </li>
             <li className="mb-3 mt-4 flex justify-center items-center gap-2 mr-2">
-              <FaTwitter />
+              <FaTwitter className="w-[18px] h-[18px]" />
               Twitter
             </li>
             <li className="mb-3 mt-4 flex justify-center items-center gap-2 mr-2">
-              <SiBehance />
+              <SiBehance className="w-[18px] h-[18px]" />
               Behance
             </li>
             <li className="mb-3 mt-4 flex justify-center items-center gap-2 mr-2">
-              <FaYoutube />
+              <FaYoutube className="w-[18px] h-[18px]" />
               Youtube
             </li>
           </ul>
         </div>
         <div className="pl-10 text-white">
-          <p className="pt-8 underline mb-3">Get Newsletter</p>
-          <p className="w-[226px] h-[46px] mt-3">
+          <p className="pt-14 underline mb-3">Get Newsletter</p>
+          <p className="w-[226px] h-[46px] mt-3 text-[16px]">
             Get on the list and get 10% off your first order!
           </p>
-          <p className="mt-24 border w-[216px] h-[60px] text-center m-auto pt-4 rounded-lg">
+          <p className="mt-24 border w-[216px] h-[60px] text-center m-auto pt-4 rounded-lg text-xl">
             Subscribe now
           </p>
         </div>
