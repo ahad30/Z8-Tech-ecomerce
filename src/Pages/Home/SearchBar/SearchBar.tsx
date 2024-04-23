@@ -26,7 +26,7 @@ const SearchBar = () => {
               id="Search"
               name="search"
               placeholder="Search Products..."
-              className="w-full bg-[#D9D9D9] px-4 outline-none rounded-full py-3 border-primary border-[1.2px] pe-10 shadow-sm sm:text-sm"
+              className="w-full bg-[#FEFBFB] px-4 outline-none rounded-full py-3 border-primary border-[1.2px] pe-10 shadow-sm sm:text-sm"
             />
           </form>
 
