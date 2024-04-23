@@ -5,17 +5,22 @@ import img2 from "../../../../src/assets/Bannar/Rectangle 02.png";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 const Banner = () => {
   return (
-    <div className="grid grid-cols-7   gap-x-2">
+    <div className="grid grid-cols-7  gap-x-2">
       {/* banner image */}
       <div className="col-span-6">
         <Swiper
           style={{}}
+          loop= {true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           pagination={true}
           className=""
-          modules={[Pagination]}
+          modules={[Pagination , Autoplay]}
         >
           <SwiperSlide className="">
             <div className=" flex pl-6 items-center  h-full    bg-banner-img bg-cover ">
