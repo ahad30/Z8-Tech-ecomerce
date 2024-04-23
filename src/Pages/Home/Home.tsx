@@ -11,9 +11,9 @@ const Home = () => {
       <SearchBar></SearchBar>
       <Banner></Banner>
       <Category></Category>
-      {/* <Flashsale></Flashsale>
+      <Flashsale></Flashsale>
       <Product></Product>
-      <Ads></Ads> */}
+      <Ads></Ads> 
     </div>
   );
 };

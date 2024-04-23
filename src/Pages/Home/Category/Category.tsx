@@ -29,7 +29,7 @@ const imgArr = [
 
 const Category = () => {
   return (
-    <div className="mt-16 pb-20 ">
+    <div className="mt-16 ">
       <h2 className="font-bold text-4xl">
         Top <span className="text-primary">Categories</span>
       </h2>
