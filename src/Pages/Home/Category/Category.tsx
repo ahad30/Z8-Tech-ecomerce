@@ -46,6 +46,9 @@ const Category = () => {
           </div>
         ))}
       </div>
+      <div className="text-center mt-12 flex justify-center items-center">
+        <button className="bg-primary text-white rounded-lg w-[284px] h-[45px]  ">View all categories</button>
+      </div>
     </div>
   );
 };
