@@ -1,5 +1,10 @@
 import img1 from "../../assets/google play/f-app 1.png";
 import img from "../../assets/google play/f-google 1.png";
+import { IoLogoFacebook } from "react-icons/io5";
+import { FaDribbble } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { SiBehance } from "react-icons/si";
+import { FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
@@ -13,9 +18,11 @@ const Footer = () => {
           <p className="pt-5 text-white">Enter email address</p>
           <p className="border w-[270px] h-[40px] p-2 text-white mt-3">Email</p>
         </div>
-        <div className="pl-36 text-white">
-          <p className="pt-8 underline">Information</p>
-          <ul className="gap-2 font-semibold">
+        <div className="pl-24 text-white text-sm">
+          <p className="pt-8 underline text-[16px] font-semibold">
+            Information
+          </p>
+          <ul>
             <li className="mb-3 mt-4">Custom service</li>
             <li className="mb-3 mt-4">FAQs</li>
             <li className="mb-3 mt-4">Ordering Tracking</li>
@@ -23,15 +30,49 @@ const Footer = () => {
             <li className="mb-3 mt-4">Events</li>
           </ul>
         </div>
-        <div className="pl-36 text-white">
-          <p className="pt-8 underline">Information</p>
-          <ul className="gap-2">
-            <li className="mt-2">Custom service</li>
-            <li className="mb-3 mt-4">FAQs</li>
-            <li className="mb-3 mt-4">Ordering Tracking</li>
-            <li className="mb-3 mt-4">Contact</li>
-            <li className="mb-3 mt-4">Events</li>
+        <div className="pl-10 text-white text-sm">
+          <p className="pt-8 underline text-[16px]">My Account</p>
+          <ul>
+            <li className=" mb-3 mt-4">Delivery Information</li>
+            <li className="mb-3 mt-4">Privacy Policy</li>
+            <li className="mb-3 mt-4">Discount</li>
+            <li className="mb-3 mt-4">Custom service</li>
+            <li className="mb-3 mt-4">Terms & Condition</li>
           </ul>
+        </div>
+        <div className="pl-8 text-white text-sm">
+          <p className="pt-8 underline text-[16px]">Social Network</p>
+          <ul>
+            <li className="mb-3 mt-4 flex justify-center items-center gap-2">
+              <IoLogoFacebook />
+              Facebook
+            </li>
+            <li className="mb-3 mt-4 flex justify-center items-center gap-2 mr-2">
+              <FaDribbble />
+              Dribble
+            </li>
+            <li className="mb-3 mt-4 flex justify-center items-center gap-2 mr-2">
+              <FaTwitter />
+              Twitter
+            </li>
+            <li className="mb-3 mt-4 flex justify-center items-center gap-2 mr-2">
+              <SiBehance />
+              Behance
+            </li>
+            <li className="mb-3 mt-4 flex justify-center items-center gap-2 mr-2">
+              <FaYoutube />
+              Youtube
+            </li>
+          </ul>
+        </div>
+        <div className="pl-10 text-white">
+          <p className="pt-8 underline mb-3">Get Newsletter</p>
+          <p className="w-[226px] h-[46px] mt-3">
+            Get on the list and get 10% off your first order!
+          </p>
+          <p className="mt-24 border w-[216px] h-[60px] text-center m-auto pt-4 rounded-lg">
+            Subscribe now
+          </p>
         </div>
       </div>
       <div className="mt-10 border border-[#600451]"></div>
