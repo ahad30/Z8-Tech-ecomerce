@@ -7,6 +7,7 @@ import Ads from './Ads/Ads'
 const Home = () => {
   return (
     <div>
+        
         <Banner></Banner>
         <Category></Category>
         <Flashsale></Flashsale>
