@@ -45,21 +45,21 @@ const Flashsale = () => {
   return (
 
 <section
-  className="relative bg-[url(https://i.ibb.co/FVDc1XS/vecteezy-flash-and-big-sale-on-phone-banner-web-shopping-online-6828786-Converted-01-1.png)]  bg-center bg-no-repeat mt-5 mb-5"
+  className="relative bg-[url(https://i.ibb.co/FVDc1XS/vecteezy-flash-and-big-sale-on-phone-banner-web-shopping-online-6828786-Converted-01-1.png)]  bg-center bg-no-repeat mt-16 mb-10 py-5"
 >
  
-
   <div
     className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex h-[450px] lg:items-center lg:px-8"
   >
     
-  <div className="grid grid-cols-2 mt-[300px] lg:grid-cols-6 gap-x-16  mx-auto text-center">
+  <div className="grid grid-cols-2 mt-[300px] lg:grid-cols-6 gap-x-24  mx-auto text-center
+  text-white">
 {
   data?.map(item => 
     <div key={item.id}  className="">
          <img src={item.image} alt="" className="size-24"/>
-         <p>${item?.price}</p>
-         <p>${item?.price}</p>
+         <p className="text-xl mt-1 mb-2">${item?.discountPrice}</p>
+         <p><del>${item?.price}</del> </p>
     </div>
   )
 }
