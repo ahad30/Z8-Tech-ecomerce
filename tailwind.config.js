@@ -12,6 +12,8 @@ export default {
     extend: {
       backgroundImage: {
         'banner-img': "url('./src/assets/Bannar/bannar.png')",
+        'online-shopping': "url('./src/assets/online Shopping/Rectangle-01.png')",
+       
        
       },
       colors: {

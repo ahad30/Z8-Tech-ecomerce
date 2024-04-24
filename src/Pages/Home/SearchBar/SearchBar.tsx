@@ -1,9 +1,5 @@
 import { CiSearch } from "react-icons/ci";
-import { IoCartOutline } from "react-icons/io5";
-import { MdOutlineFavoriteBorder } from "react-icons/md";
-import icons1 from "../../../assets/icons/Favorite_light.png";
-import icons2 from "../../../assets/icons/Group 8740.png";
-import icons3 from "../../../assets/icons/User_alt_light.png";
+
 
 const SearchBar = () => {
   return (
