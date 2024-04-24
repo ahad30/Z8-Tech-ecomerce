@@ -7,7 +7,7 @@ const Ads = () => {
       <div className="grid grid-cols-2 mt-32">
         {/* img */}
         <div>
-          <img src={img} className="" alt="" />
+          <img src={img} className="object-cover" alt="" />
         </div>
         {/* content */}
         <div className="flex flex-col justify-end">
@@ -51,6 +51,7 @@ const Ads = () => {
           </div>
         </div>
       </div>
+      {/* carousel */}
     </div>
   );
 };

@@ -10,9 +10,10 @@ const Banner = () => {
   return (
     <div className="grid grid-cols-7  gap-x-2">
       {/* banner image */}
-      <div className="col-span-6">
+      <div className="col-span-6 pagination">
         <Swiper
           style={{}}
+          
           loop= {true}
           autoplay={{
             delay: 2500,
