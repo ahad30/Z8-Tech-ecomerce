@@ -75,6 +75,7 @@ const Footer = () => {
             Subscribe now
           </p>
         </div>
+      
       </div>
       <div className="mt-10 border border-[#600451]"></div>
       <div className="lg:px-10 px-2 lg:py-5 py-2 justify-between flex">
