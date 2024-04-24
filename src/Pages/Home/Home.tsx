@@ -4,6 +4,8 @@ import Flashsale from "./Flashsale/Flashsale";
 import Product from "./Product/Product";
 import Ads from "./Ads/Ads";
 import SearchBar from "./SearchBar/SearchBar";
+import Selling from "./Selling/Selling";
+import AuctionProduct from "./Auction-product/AuctionProduct";
 
 const Home = () => {
   return (
@@ -13,7 +15,10 @@ const Home = () => {
       <Category></Category>
       <Flashsale></Flashsale>
       <Product></Product>
-      <Ads></Ads> 
+      <Ads></Ads>
+
+      <Selling></Selling>
+      <AuctionProduct></AuctionProduct>
     </div>
   );
 };
