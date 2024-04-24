@@ -26,37 +26,39 @@ const productCard = [
   { img: img12, title: "Portable Bluetooth", price: "110", discount: "7" },
 ];
 
-
 const Product = () => {
   return (
     <div className="mt-16 ">
+      {/* tabs and title */}
       <div className="flex justify-between items-center">
         <h2 className="font-bold text-4xl">
           Popular <span className="text-primary">Products</span>
         </h2>
         <div className="text-lg font-normal flex gap-x-5">
-           <p className="text-[#B70223]">All</p>
-           <p className="">Featured</p>
-           <p className="">On sale</p>
-           <p className="">Trending</p>
-           <p className="">Top rated</p>
+          <p className="text-[#B70223]">All</p>
+          <p className="">Featured</p>
+          <p className="">On sale</p>
+          <p className="">Trending</p>
+          <p className="">Top rated</p>
         </div>
       </div>
-
+      {/* product card */}
       <div className="grid lg:grid-cols-6  gap-y-12 gap-x-14 mt-16">
-      {productCard.map((item, index) => (
-        <div
-          className={`min-h-[100px] w-full relative`}
-        >
-          <img src={item.img} alt={item.img} className={`size-44`} />
-          <p className="mt-2 text-[14px] font-normal text-[#222222]">{item?.title}</p>
-          <p className="text-[#222222] font-bold text-lg">${item?.price}</p>
-         {
-          item?.discount && <span className="absolute top-2 left-2 bg-[#FF0202] text-white px-2 py-1">-{item?.discount}%</span>
-         }
-        </div>
-      ))}
-    </div>
+        {productCard.map((item, index) => (
+          <div className={`min-h-[100px] w-full relative`}>
+            <img src={item.img} alt={item.img} className={`size-44 object-cover`} />
+            <p className="mt-2 text-[14px] font-normal text-[#222222]">
+              {item?.title}
+            </p>
+            <p className="text-[#222222] font-bold text-lg">${item?.price}</p>
+            {item?.discount && (
+              <span className="absolute top-2 left-2 bg-[#FF0202] text-white px-2 py-1">
+                -{item?.discount}%
+              </span>
+            )}
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

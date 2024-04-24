@@ -1,9 +1,5 @@
 import { CiSearch } from "react-icons/ci";
-import { IoCartOutline } from "react-icons/io5";
-import { MdOutlineFavoriteBorder } from "react-icons/md";
-import icons1 from "../../../assets/icons/Favorite_light.png";
-import icons2 from "../../../assets/icons/Group 8740.png";
-import icons3 from "../../../assets/icons/User_alt_light.png";
+
 
 const SearchBar = () => {
   return (
@@ -26,7 +22,7 @@ const SearchBar = () => {
               id="Search"
               name="search"
               placeholder="Search Products..."
-              className="w-full bg-[#D9D9D9] px-4 outline-none rounded-full py-3 border-primary border-[1.2px] pe-10 shadow-sm sm:text-sm"
+              className="w-full bg-[#FEFBFB] px-4 outline-none rounded-full py-3 border-primary border-[1.2px] pe-10 shadow-sm sm:text-sm"
             />
           </form>
 
