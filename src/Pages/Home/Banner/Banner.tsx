@@ -13,7 +13,6 @@ const Banner = () => {
       <div className="col-span-6 pagination">
         <Swiper
           style={{}}
-          
           loop= {true}
           autoplay={{
             delay: 2500,
