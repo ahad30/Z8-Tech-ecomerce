@@ -1,3 +1,5 @@
+// import ReviewsSlider from "./SaleSlider";
+import SaleSlider from "./SaleSlider";
 
 
 const data = [     
@@ -43,7 +45,7 @@ const data = [
 
 const Flashsale = () => {
   return (
-
+<>
 <section
   className="relative bg-[url(https://i.ibb.co/FVDc1XS/vecteezy-flash-and-big-sale-on-phone-banner-web-shopping-online-6828786-Converted-01-1.png)]  bg-center bg-no-repeat mt-16 mb-10 py-5"
 >
@@ -66,6 +68,12 @@ const Flashsale = () => {
   </div>
   </div>
 </section>
+
+<SaleSlider></SaleSlider>
+
+</>
+
+
   )
 }
 
