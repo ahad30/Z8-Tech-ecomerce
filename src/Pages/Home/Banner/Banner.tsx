@@ -13,22 +13,24 @@ const Banner = () => {
       <div className="col-span-6 pagination">
         <Swiper
           style={{}}
-          
-          loop= {true}
+          loop={true}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
           }}
           pagination={true}
           className=""
-          modules={[Pagination , Autoplay]}
+          modules={[Pagination, Autoplay]}
         >
           <SwiperSlide className="">
             <div className=" flex pl-6 items-center  h-full    bg-banner-img bg-cover ">
               <div className="space-y-4 w-1/2">
-                <p className="text-[24px] text-primary font-normal">Accessories</p>
+                <p className="text-[24px] text-primary font-normal">
+                  Accessories
+                </p>
                 <h2 className="font-semibold leading-[64px] text-5xl">
-                  Up To <span className="text-[#B70223]">20% Off</span> Latest Creations
+                  Up To <span className="text-[#B70223]">20% Off</span> Latest
+                  Creations
                 </h2>
               </div>
             </div>
@@ -36,10 +38,13 @@ const Banner = () => {
           <SwiperSlide className="">
             <div className=" flex pl-6 items-center  h-full    bg-banner-img bg-cover ">
               <div className="space-y-4 w-1/2">
-                <p className="text-[24px] text-primary font-normal">Accessories</p>
-                
+                <p className="text-[24px] text-primary font-normal">
+                  Accessories
+                </p>
+
                 <h2 className="font-semibold leading-[64px] text-5xl">
-                  Up To <span className="text-[#B70223]">20% Off</span> Latest Creations
+                  Up To <span className="text-[#B70223]">20% Off</span> Latest
+                  Creations
                 </h2>
               </div>
             </div>
@@ -47,9 +52,12 @@ const Banner = () => {
           <SwiperSlide className="">
             <div className=" flex pl-6 items-center  h-full    bg-banner-img bg-cover ">
               <div className="space-y-4 w-1/2">
-                <p className="text-[24px] text-primary font-normal">Accessories</p>
+                <p className="text-[24px] text-primary font-normal">
+                  Accessories
+                </p>
                 <h2 className="font-semibold leading-[64px] text-5xl">
-                  Up To <span className="text-[#B70223]">20% Off</span> Latest Creations
+                  Up To <span className="text-[#B70223]">20% Off</span> Latest
+                  Creations
                 </h2>
               </div>
             </div>

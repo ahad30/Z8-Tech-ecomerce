@@ -28,7 +28,7 @@ const Selling = () => {
         </div>
 
         <div className="grid lg:grid-cols-4 gap-6 mt-6">
-          {selling.map((item, index) => (
+          {selling.map((item) => (
             <div className={`min-h-[100px] w-full relative`}>
               <img src={item.img} alt={item.img} className={`size-72`} />
               <p className="mt-2 text-[14px] font-normal text-[#000000]">
