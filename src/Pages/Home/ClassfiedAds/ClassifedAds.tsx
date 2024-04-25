@@ -31,7 +31,7 @@ const ClassifedAds = () => {
         <img className="object-cover" src={imgBanner} alt="" />
       </div>
       {/* title */}
-      <div className="mt-24 mb-12 flex justify-between items-center">
+      <div className="mt-24 flex justify-between items-center">
         <h2 className="font-bold text-4xl">
           Classified <span className="text-primary">Ads</span>
         </h2>
