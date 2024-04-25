@@ -84,8 +84,8 @@ const TopSeller = () => {
                 </button>
               </div>
             </div>
-          );
-        })}
+          );                                      
+        })} 
       </div>
     </div>
   );
