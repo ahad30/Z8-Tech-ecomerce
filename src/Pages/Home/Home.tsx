@@ -6,6 +6,7 @@ import Ads from "./Ads/Ads";
 import SearchBar from "./SearchBar/SearchBar";
 import Selling from "./Selling/Selling";
 import AuctionProduct from "./Auction-product/AuctionProduct";
+import ClassifedAds from "./ClassfiedAds/ClassifedAds";
 
 const Home = () => {
   return (
@@ -16,9 +17,9 @@ const Home = () => {
       <Flashsale></Flashsale>
       <Product></Product>
       <Ads></Ads>
-
       <Selling></Selling>
       <AuctionProduct></AuctionProduct>
+      <ClassifedAds></ClassifedAds>
     </div>
   );
 };
