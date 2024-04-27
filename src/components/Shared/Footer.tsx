@@ -9,8 +9,8 @@ const Footer = () => {
   return (
     <div>
       <div className="bg-[#600451] h-[351px] mt-10 ">
-        <div className="flex mx-auto max-w-7xl">
-          <div className="px-20">
+        <div className="flex mx-auto max-w-6xl">
+          <div className="mx-auto">
             <p className="text-2xl font-semibold text-white pt-12">
               Z8 eComerce
             </p>
@@ -24,7 +24,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="pl-32 text-white text-sm">
+          <div className="pl-28 text-white text-sm">
             <p className="pt-14 underline text-[16px] font-semibold">
               Information
             </p>
@@ -71,9 +71,9 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="pl-12 text-white">
+          <div className="pl-10 text-white">
             <p className="pt-14 underline mb-3">Get Newsletter</p>
-            <p className="w-[226px] h-[46px] mt-3 text-[16px]">
+            <p className="w-[230px] h-[46px] mt-3 text-[16px] mx-auto">
               Get on the list and get 10% off your first order!
             </p>
             <p className="mt-24 border w-[216px] h-[60px] text-center m-auto pt-4 rounded-lg text-xl">
@@ -81,8 +81,8 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="mt-10 border border-[#600451] mx-auto max-w-7xl"></div>
-        <div className="lg:px-10 px-2 lg:py-5 py-2 justify-between flex mx-auto max-w-6xl">
+        <div className="mt-10 border border-[#600451] mx-auto max-w-6xl"></div>
+        <div className="mt-7 justify-between flex mx-auto max-w-6xl">
           <div>
             <p className="lg:w-[167px]">
               000. 000. 000. 00 Working 00:00 - 00:00
@@ -90,7 +90,7 @@ const Footer = () => {
           </div>
           <div>
             <p className="lg:w-[220px] w-[200px] font-semibold">
-              Download App on Mobile{" "}
+              Download App on Mobile
             </p>
             <p className="text-gray-500 text-[15px]">
               15% discount on your first purchase
@@ -102,7 +102,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border bg-[#2B2828] h-[60px]">
-          <p className="lg:px-10 px-5 lg:py-4 py-2 text-white text-[15px] text-center lg:text-left mx-auto max-w-7xl ">
+          <p className=" lg:py-4 py-2 text-white text-[15px] text-center lg:text-left mx-auto max-w-6xl ">
             Your experience on this site will be improved by allowing cookies
           </p>
         </div>
