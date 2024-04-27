@@ -8,6 +8,7 @@ import Selling from "./Selling/Selling";
 import AuctionProduct from "./Auction-product/AuctionProduct";
 import ClassifedAds from "./ClassfiedAds/ClassifedAds";
 import TopSeller from "./ToSeller/TopSeller";
+import TopBrands from "./TopBrands/TopBrands";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <AuctionProduct></AuctionProduct>
       <ClassifedAds></ClassifedAds>
       <TopSeller></TopSeller>
+      <TopBrands></TopBrands>
     </div>
   );
 };
